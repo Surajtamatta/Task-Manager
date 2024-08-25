@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // or higher
+      "module": "commonjs", // or "ESNext" if you are using modern modules
+      "strict": true,
+      "experimentalDecorators": true, // This must be true
+      "emitDecoratorMetadata": true, // This must be true
+      "skipLibCheck": true, // Optional, speeds up the compilation
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strictPropertyInitialization": false, // Optional, depending on your preferences
+      "resolveJsonModule": true, // Optional, for importing JSON modules
+      "moduleResolution": "node",
+      "outDir": "./dist", // or your preferred output directory
+      "sourceMap": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
+  
